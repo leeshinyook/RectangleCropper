@@ -27,8 +27,11 @@ Just pass the image to the RectangleCropper and it will be cropped like magic.
 <img width="600" alt="스크린샷 2021-09-11 오후 10 29 15" src="https://user-images.githubusercontent.com/55838461/132949483-b1fb9845-e08a-4b9a-85eb-71cdc9cebdde.png">
 
 
-There are many services that use square-based images. There are many services that use square-based images. This library was created by combining a general rule-based algorithm and a pixel-based search algorithm, not advanced technologies such as computer vision.
-So it doesn't have enough ability to cover the edge case. This library shows the best performance when the background color is one color or two or three. So it doesn't have enough ability to cover the edge case. However, by applying this rule-based algorithm, it became possible to apply rules according to the service. For example, you can input guidelines for the size of the image to be cropped, and finely adjust the critical point required when cropping the image.
+There are many services that use square-based images. This library was created by combining a general rule-based algorithm and a pixel-based search algorithm, not advanced technologies such as computer vision.
+This library shows the best performance when the background color is one color or two or three. 
+So it doesn't have enough ability to cover the edge case. However, by applying this rule-based algorithm, 
+it became possible to apply rules according to the service. For example, 
+you can input guidelines for the size of the image to be cropped, and finely adjust the critical point required when cropping the image.
 
 
 ## Requirements
