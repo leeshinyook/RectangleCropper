@@ -1,13 +1,10 @@
 # RectangleCropper
 
------
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fleeshinyook%2FRectangleCropper&count_bg=%23F3007A&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 ![Generic badge](https://img.shields.io/badge/version-1.0.0-green.svg)
 
 ## Overview
-
------
 
 `RectangleCropper` is a Python library that crops images into rectangles. The image to be cropped is detected through the rule base with pixel search algorithm.
 For example, the image below shows a bestseller in a bookstore, and you want to crop the image of the book. 
@@ -36,13 +33,11 @@ So it doesn't have enough ability to cover the edge case. This library shows the
 
 ## Requirements
 
------
 - Python >= 3
 - Works on Linux, Windows, macOS
 
 ## Getting it
 
------
 The quick way:
 ```code
 pip install RectangleCropper
@@ -50,7 +45,6 @@ pip install RectangleCropper
 
 ## Getting Started
 
------
 ```python
 import rectanglecropper.crop as rc
 
@@ -63,7 +57,6 @@ Done!
 
 ## Performance
 
------
 Unless you need a lot of image processing, I recommend using this library. 
 However, performance cannot be guaranteed. Because this library is going through the pixel-based search process. 
 In Python, the cost of this process is very high. It works by converting to NumPy inside, not a list, but it doesn't change the fact that it's expensive. 
@@ -72,8 +65,6 @@ Also, the larger the image size, the longer the cropping process takes. To solve
 I will make a library of the same function written in Golang which is at least 5-7 times faster and will distribute it soon. thank you.
 
 ## Advanced Usage
-
------
 
 Is the image not cropping well? 
 
@@ -141,7 +132,6 @@ please set it not to deviate too much from this default value.
 
 ## Finally
 
----
 Many features will be added in the future. 
 
 If you have any problems, I'd appreciate it if you could leave them in the issue.
