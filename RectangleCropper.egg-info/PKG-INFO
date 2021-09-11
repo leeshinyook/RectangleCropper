@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: RectangleCropper
+Version: 1.0.0
+Summary: Crop image to rectangle
+Home-page: https://github.com/leeshinyook/RectangleCropper
+Author: Shinyook Lee <tlsdbr97@gmail.com>
+Author-email: tlsdbr97@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3

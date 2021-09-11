@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+RectangleCropper.egg-info/PKG-INFO
+RectangleCropper.egg-info/SOURCES.txt
+RectangleCropper.egg-info/dependency_links.txt
+RectangleCropper.egg-info/requires.txt
+RectangleCropper.egg-info/top_level.txt
+rectanglecropper/__init__.py
+rectanglecropper/crop.py
